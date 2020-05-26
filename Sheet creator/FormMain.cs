@@ -112,6 +112,7 @@ namespace SheetCreator
                 {
                     createdGrid.Save(saveDialog.FileName, format);
                     MessageBox.Show(GlobalStrings.Done);
+                    _image = null;
                 }
                 catch (Exception ex)
                 {
